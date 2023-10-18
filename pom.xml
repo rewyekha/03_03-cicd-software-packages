@@ -19,7 +19,7 @@
       <name>GitHub Packages</name>
 
       <!-- REPLACE WITH YOUR GITHUB_USERNAME and GITHUB_REPONAME -->
-      <url>https://maven.pkg.github.com/automate6500/03_03_cicd_software_pacakges</url>
+      <url>https://maven.pkg.github.com/rewyekha/03_03-cicd-software-packages</url>
 
     </repository>
   </distributionManagement>
