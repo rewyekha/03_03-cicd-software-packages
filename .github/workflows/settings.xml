@@ -1,7 +1,18 @@
-<servers>
-  <server>
-    <id>github</id> 
-    <username>rewyekha</username>
-    <password>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</password>
-  </server>
-</servers>
+- name: Create settings.xml
+  run: |
+    cat << EOF > ~/.m2/settings.xml
+    <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+      <servers>
+        <server>
+          <id>github</id> 
+          <username>rewyekha</username>
+          <password>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</password>
+        </server>
+      </servers>
+    </settings>
+    EOF
+  env:
+    GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
