@@ -8,7 +8,7 @@
   <artifactId>hello-actions</artifactId>
 
   <!-- UPDATE THE VERSION EACH RELEASE -->
-  <version>1.0.0</version>
+  <version>1.12.31</version>
 
   <!-- REPLACE WITH YOUR GITHUB_USERNAME -->
   <groupId>rewyekha</groupId>
